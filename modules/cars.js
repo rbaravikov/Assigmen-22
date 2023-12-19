@@ -6,16 +6,15 @@
 
 import body from "./header.js"
 const array = ["BMW", "VW", "AUDI", "MB"]
-const appendToBody = document.querySelector("body")
 
 const newLi = (array) => {
     const list = document.createElement("ul")
     array.map(item => {
         list.append(`<li>${item}</li>`)
     })
-    console.log(appendToBody)
-    console.log(list)
-    appendToBody.appendChild(list)
+    return list
 }
 
-export default console.log(newLi(array))
+const app = newLi(array)
+
+export default app

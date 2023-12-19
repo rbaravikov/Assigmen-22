@@ -11,5 +11,4 @@ ${array.map((item) => <li></li>}
 import body from "./header.js"
 import app from "./cars.js"
 
-body.innerHTML += `<header><h1>Header</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, iste blanditiis delectus quam ex nesciunt tenetur sunt asperiores! Explicabo quod architecto quibusdam nesciunt tenetur? Amet in ipsam quam officia quaerat?</p></header>`
-
+body.innerHTML += `<header><h1>Header</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, iste blanditiis delectus quam ex nesciunt tenetur sunt asperiores! Explicabo quod architecto quibusdam nesciunt tenetur? Amet in ipsam quam officia quaerat?</p></header>${app}`
